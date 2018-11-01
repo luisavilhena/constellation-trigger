@@ -1,0 +1,94 @@
+.grafismos-girando {
+  width: 500px;
+  height: 500px;
+  position: relative;
+}
+
+.grafismos-girando img {
+  display: block;
+  width: 100%;
+  position: absolute;
+  animation: rotate 4s linear 0s infinite;
+}
+
+.grafismos-girando img.graf1 {
+  animation-duration: 5s;
+}
+
+.grafismos-girando img.graf2 {
+  animation-duration: 4s;
+}
+
+.grafismos-girando img.graf3 {
+  animation-duration: 3s;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.grafismos-reto {
+  width: 500px;
+  position: relative;
+  transform: translateX(-50%);
+  margin-top: 800px;
+}
+
+.grafismos-reto div {
+  height: 3px;
+  width: 300px;
+  display: block;
+  background-image: linear-gradient(to right, rgba(0,0,0,0) , rgba(0,37,84,1));
+  position: absolute;
+  /* animation: run 4s linear 0s infinite; */
+}
+
+.grafismos-reto div.graf1 {
+  width: 270px;
+  transform: rotate(-100deg) translateX(20%);
+  animation: run1 4s linear 0s infinite;
+}
+
+.grafismos-reto div.graf2 {
+  width: 280px;
+  transform: rotate(-110deg) translateX(20%);
+  animation: run2 4s linear 0s infinite;
+}
+
+.grafismos-reto div.graf3 {
+  transform: rotate(-120deg) translateX(20%);
+  animation: run3 4s linear 0s infinite;
+}
+
+
+@keyframes run1 {
+  from {
+    transform: rotate(-30deg) translateX(50%);
+  }
+  to {
+    transform: rotate(-30deg) translateX(400%);
+  }
+}
+
+@keyframes run2 {
+  from {
+    transform: rotate(-40deg) translateX(50%);
+  }
+  to {
+    transform: rotate(-40deg) translateX(400%);
+  }
+}
+
+@keyframes run3 {
+  from {
+    transform: rotate(-50deg) translateX(50%);
+  }
+  to {
+    transform: rotate(-50deg) translateX(400%);
+  }
+}

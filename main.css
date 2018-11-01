@@ -1,0 +1,57 @@
+body {
+  background-color: #5a0f4a;
+}
+
+section {
+  margin: 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+h1 {
+  margin-right: -100px;
+
+  color: #70ddcb;
+  font-size: 40px;
+  font-family: 'Madera';
+  font-weight: 300;
+}
+
+#layer2 {
+  margin-left: -40px;
+}
+
+svg {
+  margin-top: -30px;
+  width: 300px;
+/*
+  animation: trigger 2s ;*/
+}
+/*
+@keyframes trigger {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0.5;
+    transform: translate3d(0, -1rem, 0);
+  }
+}*/
+
+p {
+  color: white;
+  font-family: 'Madera';
+}
+
+.divide {
+  width: 450px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.block {
+  display: flex;
+  flex-direction: row;
+}

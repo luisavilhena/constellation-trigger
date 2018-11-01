@@ -1,0 +1,35 @@
+@font-face {
+  font-family: 'Madera';
+  src: url('fonts/madera/Madera-Light.eot');
+  src: url('fonts/madera/Madera-Light.eot?#iefix') format('embedded-opentype'),
+      url('fonts/madera/Madera-Light.woff2') format('woff2'),
+      url('fonts/madera/Madera-Light.woff') format('woff'),
+      url('fonts/madera/Madera-Light.ttf') format('truetype'),
+      url('fonts/madera/Madera-Light.svg#Madera-Light') format('svg');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Madera';
+  src: url('fonts/madera/Madera-Bold.eot');
+  src: url('fonts/madera/Madera-Bold.eot?#iefix') format('embedded-opentype'),
+      url('fonts/madera/Madera-Bold.woff2') format('woff2'),
+      url('fonts/madera/Madera-Bold.woff') format('woff'),
+      url('fonts/madera/Madera-Bold.ttf') format('truetype'),
+      url('fonts/madera/Madera-Bold.svg#Madera-Bold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Madera';
+  src: url('fonts/madera/Madera-Regular.eot');
+  src: url('fonts/madera/Madera-Regular.eot?#iefix') format('embedded-opentype'),
+      url('fonts/madera/Madera-Regular.woff2') format('woff2'),
+      url('fonts/madera/Madera-Regular.woff') format('woff'),
+      url('fonts/madera/Madera-Regular.ttf') format('truetype'),
+      url('fonts/madera/Madera-Regular.svg#Madera-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
